@@ -1,6 +1,5 @@
 import random
 
-# Kenjiro's branch
 def ask_question(question, answer):
     user_answer = input(question + " ")
     return user_answer.lower() == answer.lower()
@@ -11,8 +10,7 @@ def main():
         "What is 2 + 2?": "4",
         "What is the color of the sky?": "blue",
         "Who wrote 'To Kill a Mockingbird'?": "harper lee",
-        "What is the largest planet in our solar system?": "jupiter",
-        "What is 2^6?": "64"
+        "What is the largest planet in our solar system?": "jupiter"
     }
 
     score = 0
